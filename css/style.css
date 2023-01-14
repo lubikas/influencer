@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+/* responsive part................................. */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header-part{
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 75px;
+}
+.header-part .nav-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+.header-part .nav-menu ul{
+    display: flex;
+    list-style-type: none;
+}
+.header-part .nav-menu ul li{
+    padding-right: 34px;
+}
+.header-part .nav-menu ul li a{
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 16px;
+    color:#3A3A3A;
+    text-decoration: none;
+}
+.header-part .nav-menu ul li i{
+    color:#3A3A3A;
+}
+.header-part .nav-menu ul li a:last-child{
+    padding-right: 0;
+}
+/* ...........................header-part ends...................... */
+.banner-part{
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+}
+.banner-part .banner-text {
+    padding-top: 50px;
+}
+.banner-part .banner-text h1{
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+    line-height: 70px;
+}
+.banner-part .banner-text p{
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    line-height: 24px;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+.banner-part .banner-text button h2{
+    padding-right: 12px;
+}
+.banner-part .banner-text button i{
+    color:#ffff;
+}
+.banner-part .banner-text button {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+    background: #E02C6D;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 41px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.banner-part .banner-img{
+    width: 440px;
+    height: 410px;
+    border: 1px solid #F1E4FF;
+    border-radius: 50%;
+    padding: 30px;
+}
+/* .............banner part ends/......................... */
+.company{
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.company ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.company ul li{
+    line-height: 110px;
+}
+/* .............compay part ends */
+.polular{
+    width: 1110px;
+    margin: 0 auto;
+}
+.polular .popular-part .text{
+    text-align: center;
+    margin-top: 100px;
+
+}
+.polular .popular-part .article-part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+}
+.polular .popular-part .article{
+    margin: 15px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.polular .popular-part .article img{
+    width: 300px;
+    height: 256px;
+}
+.polular .popular-part .article h1{
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+}
+.polular .popular-part .article h2{
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+.polular .popular-part .article .star {
+    display: flex;
+    align-items: center;
+}
+.polular .popular-part .article .star ul{
+   list-style-type: none;
+   display: flex;
+   padding-right: 10px;
+}
+.polular .popular-part .article .star ul li{
+   font-size: 16px;
+   color: orange;
+}
+.polular .popular-part .article .star ul li:last-child{
+    color: #928c99;
+}
+.polular .popular-part .article p{
+    font-size: 14px;
+    list-style: 20px;
+    color: #787885;
+}
+.polular .popular-part .see-more{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.polular .popular-part .see-more a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #E02C6D;
+    text-decoration: none;
+}
+.fa-solid{
+    font-weight: 700;
+    font-size: 16px;
+    color: #E02C6D;
+    padding-left: 10px;
+}
+/* ...........................................polupar part ends...................... */
+.feature-part{
+    width: 1110px;
+    display: flex;
+    margin: 0 auto;
+    gap: 96px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.feature-part img{
+    width: 404px;
+    height: 207px;
+}
+.feature-part .text h1{
+    font-weight: 700;
+    font-size:38px;
+    color: #0A0826;
+}
+.feature-part .text h2{
+    font-weight: 700;
+    font-size:16px;
+    color: #6C6C6C;
+    line-height: 28px;
+}
+.feature-part .text button{
+   
+   margin-top: 15px;
+    background: #E02C6D;
+    border: none;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+}
+.feature-part .text button a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+   text-decoration: none;
+}
+.feature-part .text button i{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+   text-decoration: none;
+}
+/* feature part ends............................ */
+footer{
+    background: #0A0826;
+    width: 100%;
+}
+.footer-part{
+     width: 1110px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background: #0A0826;
+}
+.footer-part h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+.footer-part p, h2{
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+.footer-part ul{
+    display: flex;
+    padding-top: 18px;
+    padding-bottom: 40px;
+}
+.footer-part ul li{
+    padding-right: 15px;
+}
+.footer-part ul li a{
+    color:#fff;
+    font-size:  32px;
+}
+/* .........................footer part ends */ 
+@media only screen and (max-width: 688px) {
+    .header-part{
+        width: 100%;
+    }
+    .banner-part{
+        width: 100%;
+    }
+    .company{
+        width: 100%;
+    }
+    .polular{
+        width: 100%;
+    }
+    .feature-part{
+        width: 100%;
+    }
+    .footer-part{
+        width: 100%;
+    }
+  }
